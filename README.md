@@ -3,7 +3,7 @@
 
 # Overview
 **Authors**: _Mike Sportiello, Alexis Poindexter,  Emma C. Reilly, Adam Geber, Kris Lambert Emo, and David J. Topham_\
-**Maintainer**: Please contact Mike Sportiello at Sportiellomike@gmail.com
+**Maintainer**: Please contact Mike Sportiello at Sportiellomike@gmail.com.
 
 The code available here is to demonstrate reproducibility for all work in this manuscript. The metabolic modeling was created using the [COBRA Toolbox](https://opencobra.github.io/cobratoolbox/stable/) as well as other software including Matlab, Rstudio, Pycharm, and more. This code, to make it most reproducible, is set up with masterscripts--which call upon other scripts. In order for this work to be reproduced, it is essential that the scripts are run in the correct order, and files are located in the correct places. If you just want to use the constructed metabolic models, we have those saved and available so you don't have to rerun everything.
 
@@ -19,8 +19,6 @@ Run the code in the following order from the 'modellingcode' subfolder as your w
 	* `in vitro differentiation with metabolites`
 	* `uptake experiments`
 	* `transcriptomic analysis`
-
-I had put 'lungCD8metabolismcode' folder, which is identical to this repo if you download it, into the cobratoolbox folder. I am 99% sure you have to do that to work, but since you have to initCobraToolbox() in the beginning as you'll see in the code, I'm pretty sure you do. 
 
 # Citation
 If you use our code, we'd appreciate you citing us. The doi for citation can be found [here]().
